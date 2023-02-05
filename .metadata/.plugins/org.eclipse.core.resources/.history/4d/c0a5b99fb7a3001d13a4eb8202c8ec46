@@ -1,0 +1,8 @@
+<Suite Name = "OrangeHRM Application">
+<test Name = "OrangeHRMApplication LogInTest">
+<classes>
+<class name ="com.Grid.OrangeHRM-LogInTest"/>
+
+</classes>
+</test >
+</Suite>

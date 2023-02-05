@@ -1,0 +1,23 @@
+package com.OrangeHRMTestCases;
+
+import java.sql.Driver;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class AutoIt {
+	public static void main(String[] args) {
+		
+	
+	WebDriver driver;
+	String applicationUrlAddress = "http://orangehrm.qedgetech.com/symfony/web/index.php/dashboard";
+	System.setProperty("webdriver.chrome.driver", "./Chrome Driver File/chromedriver.exe");
+	driver = new ChromeDriver();
+	driver.get(applicationUrlAddress);
+public void NewAddEmployeeTest() {
+	By.id("");
+	
+}
+}
+}

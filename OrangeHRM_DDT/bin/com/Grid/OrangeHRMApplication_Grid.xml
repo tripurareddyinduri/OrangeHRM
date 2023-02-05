@@ -1,0 +1,15 @@
+<Suite name="OrangeHRMApplication" parallel="tests">
+<test name="chrome">
+<parameter name="Browser" value="chrome"/>
+<classes>
+<class name="com.Grid.OrangeHRM_LoginTest"/>
+</classes>
+</test>
+
+<test name="firefox" >
+<parameter name="Browser" value="firefox"/>
+<classes>
+<class name="com.Grid.OrangeHRM_AddEmployeeTest"/>j
+</classes>
+</test>
+</Suite>
